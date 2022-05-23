@@ -13,6 +13,7 @@ setup(
     entry_points={
         'console_scripts': [
             'pqt.head=pqt.head:main',
+            'pqt.tail=pqt.tail:main'
         ]
     }
 )
