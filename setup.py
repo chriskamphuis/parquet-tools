@@ -2,7 +2,6 @@ from setuptools import setup, find_packages
 
 setup(
     name='pqt',
-    version='0.0.1',
     description='Tools for quickly analyzing parquet content',
     author='Chris Kamphuis',
     author_email='mail@chriskamphuis.com',
