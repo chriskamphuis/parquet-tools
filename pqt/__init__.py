@@ -1,6 +1,5 @@
 import sys
 if '-m' not in sys.argv:
-    from .head import Head
-    from .tail import Tail
+    from .summary import Head, Tail
 
 __all__ = ['Head', 'Tail']

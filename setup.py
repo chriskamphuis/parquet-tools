@@ -12,8 +12,8 @@ setup(
     license='Apache License',
     entry_points={
         'console_scripts': [
-            'pqt.head=pqt.head:main',
-            'pqt.tail=pqt.tail:main'
+            'pqt.head=pqt.summary:head',
+            'pqt.tail=pqt.summary:tail'
         ]
     }
 )
