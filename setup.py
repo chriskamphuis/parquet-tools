@@ -13,7 +13,8 @@ setup(
     entry_points={
         'console_scripts': [
             'pqt.head=pqt.summary:head',
-            'pqt.tail=pqt.summary:tail'
+            'pqt.tail=pqt.summary:tail',
+            'pqt.count=pqt.count:count'
         ]
     }
 )
